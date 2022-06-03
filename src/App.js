@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+//import EffectCourse from "./UseEffect/UseEffect";
+//import ReducerCourse from "./UseReducer/UseReducer";
+import UseStateCourse from "./UseState/UseState";
+//import ContextCourse from "./UseContext/UseContext";
+//import ImperativeHandle from "./UseImperativeHandle/UseImperativeHandle";
+// import RefCourse from "./UseRef/UseRef";
+//import MemoCourse from "./UseMemo/UseMemo";
+//import CallBackCourse from "./UseCallback/UseCallback";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UseStateCourse />
     </div>
   );
 }
