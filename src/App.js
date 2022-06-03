@@ -1,8 +1,8 @@
 
 import "./App.css";
 //import EffectCourse from "./UseEffect/UseEffect";
-//import ReducerCourse from "./UseReducer/UseReducer";
-import UseStateCourse from "./UseState/UseState";
+import ReducerCourse from "./UseReducer/UseReducer";
+//import UseStateCourse from "./UseState/UseState";
 //import ContextCourse from "./UseContext/UseContext";
 //import ImperativeHandle from "./UseImperativeHandle/UseImperativeHandle";
 // import RefCourse from "./UseRef/UseRef";
@@ -12,7 +12,7 @@ import UseStateCourse from "./UseState/UseState";
 function App() {
   return (
     <div className="App">
-      <UseStateCourse />
+      <ReducerCourse />
     </div>
   );
 }
